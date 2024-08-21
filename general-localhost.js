@@ -11,8 +11,9 @@
   document.head.appendChild(stylesheet);
 
   let stats = {
-    "name": "This is the name",
-    "two": "this is some other two"
+    "port": `${port}`,
+    "localhost": `http://localhost:${port}`,
+    "file_location": "https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/general-localhost.js"
   }
-  console.dir(stats);
+  console.dir('🐵 Script Info', stats);
 })();
