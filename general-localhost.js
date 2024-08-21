@@ -10,5 +10,9 @@
   stylesheet.href = `//localhost:${port}/variation.css`;
   document.head.appendChild(stylesheet);
 
-  console.log(`🐵 xoptcli on port ${port}.`)
+  let stats = {
+    "name": "This is the name",
+    "two": "this is some other two"
+  }
+  console.dir(stats);
 })();
