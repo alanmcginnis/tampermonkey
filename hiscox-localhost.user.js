@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         📝 Hiscox | Localhost
+// @name         Hiscox | Localhost
 // @description  Localhost for Hiscox
 // @author       Alan McGinnis
-// @version      1.0.2
+// @version      1.0.3
 // @match        *://*.hiscox.com/*
 // @updateURL    https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/hiscox-localhost.user.js
 // @downloadURL  https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/hiscox-localhost.user.js
