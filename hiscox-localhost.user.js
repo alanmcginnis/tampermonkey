@@ -2,7 +2,7 @@
 // @name         Hiscox | Localhost
 // @description  Localhost for Hiscox
 // @author       Alan McGinnis
-// @version      1.0.3
+// @version      1.0.4
 // @match        *://*.hiscox.com/*
 // @updateURL    https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/hiscox-localhost.user.js
 // @downloadURL  https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/hiscox-localhost.user.js
@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 (function () {
-  let port = 8081;
+  let port = 8080;
   var scriptElement = document.createElement('script');
   scriptElement.type = 'text/javascript';
   scriptElement.src = `//localhost:${port}/variation.js`;
