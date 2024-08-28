@@ -30,4 +30,4 @@
 
   console.log(`🐵 Script Info 👇`)
   console.dir(stats);
-})();
+})()
