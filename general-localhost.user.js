@@ -15,17 +15,4 @@
   document.head.appendChild(scriptElement);
 
   var stylesheet = document.createElement('link');
-  stylesheet.rel = 'stylesheet';
-  stylesheet.href = `//localhost:${port}/variation.css`;
-  document.head.appendChild(stylesheet);
-
-  let stats = {
-    "port": `${port}`,
-    "localhost": `http://localhost:${port}`,
-    "file_location": "https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/general-localhost.user.js"
-  }
-
-  console.log(`Some stupid update`)
-  console.log(`🐵 Script Info 👇`)
-  console.dir(stats);
-})();
+  stylesheet
