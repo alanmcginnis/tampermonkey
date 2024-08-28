@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         🍕 Papa Murphy's
+// @name         🍕 Papa M. | Localhost
 // @description  Localhost for Papa's
 // @author       Alan McGinnis
-// @version      1.0.0
+// @version      1.0.1
 // @match        *://*.papamurphys.com/*
 // @updateURL    https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/papas-localhost.user.js
 // @downloadURL  https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/papas-localhost.user.js
@@ -30,4 +30,3 @@
 
   console.log(`🐵 Script Info 👇`)
   console.dir(stats);
-})();
