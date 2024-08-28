@@ -24,6 +24,8 @@
     "localhost": `http://localhost:${port}`,
     "file_location": "https://raw.githubusercontent.com/alanmcginnis/tampermonkey/main/general-localhost.user.js"
   }
+
+  console.log(`Some stupid update`)
   console.log(`🐵 Script Info 👇`)
   console.dir(stats);
 })();
